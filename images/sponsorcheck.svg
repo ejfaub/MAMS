@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="204px" height="128px" viewBox="0 0 204 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 4.000000)">
+            <path d="M0,0 C77.9339964,21.0895203 106.948,41.4746576 87.0420112,61.1554119 L42.9596676,75.7795778 L26.5644017,44.239728 L42.9596676,25.0786922 L61.1029504,2.84970831 L100,44.239728 L138.613758,25.0786922 C171.580477,57.8097489 171.580477,71.1930256 138.613758,65.2285223 C105.647038,59.2640189 126.109119,68.821104 200,93.8997776" id="Path-2" stroke="#FFFFFF" stroke-width="8"></path>
+            <text id="not-a-real-sponsor," font-family="Helvetica-Bold, Helvetica" font-size="13" font-weight="bold" fill="#FFFFFF">
+                <tspan x="18" y="107">not a real sponsor, merely </tspan>
+                <tspan x="18" y="123">a demonstration</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
