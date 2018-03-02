@@ -1,2 +1,0 @@
-# MAMS
-a fun thing
