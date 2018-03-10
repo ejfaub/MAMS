@@ -24,10 +24,7 @@
 
 <body>
 
-<!-- Page Loader -->
-<div id="loader-wrapper">
-	<div id="loader"></div>
-</div>
+
 
 <!-- Wrapper -->
 <div id="wrapper">
@@ -35,7 +32,7 @@
 
 	<!-- Header
 	================================================== -->
-	<div id="header-container" data-background="images/teaching.jpeg" data-color="#252628" data-color-opacity="0.0">
+	<div id="header-container" data-background="images/header.png" data-color="#252628" data-color-opacity="0.0">
 
 
 		<div id="main-header">
@@ -165,7 +162,6 @@
 </div>
 <!--Updates / End -->
 
-
 <!-- Footer
 ================================================== -->
 <div class="margin-top-60"></div>
@@ -174,20 +170,24 @@
 	<!-- Main -->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-sm-6">
+			<div class="col-md-5 col-sm-6">
 				<h4>About</h4>
-				<p>Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
+				<p>William E. Boeing's Aeronautics &amp Astronautics lab for Multiscale Analysis of Materials &amp Structures</p>
 			</div>
+			<div class="col-md-5 col-sm-6">
+				<h4>Thanks to our sponsors</h4>
+				<p><img src="images/sponsors.svg" alt=""></p>
 
+			</div>
+		</div>
 		<!-- Copyright -->
 		<div class="row">
 			<div class="col-md-12">
-				<div class="copyrights">©  Copyright 2018 by <a href="#">science</a>. All Rights Reserved.</div>
+				<div class="copyrights">©  Copyright 2018 by <a href="index.html">MAMS</a></div>
 			</div>
 		</div>
-	</div>
-</div>
 
+</div>
 
 <!-- Scripts
 ================================================== -->
