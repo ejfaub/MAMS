@@ -5,7 +5,7 @@
 <!-- Basic Page Needs
 ================================================== -->
 <meta charset="utf-8">
-<title>Openings</title>
+<title>Facilities</title>
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -23,6 +23,7 @@
 </head>
 
 <body>
+
 
 <!-- Wrapper -->
 <div id="wrapper">
@@ -64,7 +65,7 @@
 								<li class= "dropdown">
 									<a href="gallery.html">Gallery</a>
 										<ul>
-											<li><a href="facilities.html">Facilities</a></li>
+											<li><a href="facilities.html" class = "current">Facilities</a></li>
 										</ul>
 								</li>
 								<!-- if no openings:
@@ -77,7 +78,6 @@
 										<li><a href="openings.html">Openings</a></li>
 									</ul>
 								</li>
-
 							</li>
 							</ul>
 						</nav>
@@ -88,75 +88,52 @@
 	</div>
 	</div>
 
-	<!-- Titlebar
-	================================================== -->
-	<div id="titlebar" class="">
+<!-- Titlebar
+================================================== -->
+<div id="titlebar" class="">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 
-				<h2>Current Openings</h2>
+				<h2>Facilities</h2>
 
 			</div>
 		</div>
 	</div>
-	</div>
+</div>
 
-	</div>
-	<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
 
 
-<!-- content
+<!-- Content
 ================================================== -->
 
-<!-- Position #1 -->
-<div class="container">
-	<div class="row margin-top-0">
+		<!-- Projects -->
+		<div class="projects style-3 photo-gallery isotope-wrapper fw">
 
-		<!-- Title -->
-		<div class="col-md-4">
-			<h3 class="about-me-title"><strong>Research Assistant</strong></h3>
-		</div>
+			<div class="isotope-sizer"></div>
 
-		<!-- Description -->
-		<div class="col-md-8">
-			<div class="row margin-top-20">
-				<div class="col-md-12">
-					<p class="about-me-intro">Looking for a strong candidate majoring in Mechanical Engineering or AA. Must like tacos, fun, and late nights in the lab.
-					Serious inquiries only. Upon passing phone screen must be able to face off in taco making competition with defending champ, Joe Undergrad.</p>
+
+
+
+			<!-- Item -->
+			<div class="isotope-item">
+				<a href="images/toni3.2.png" data-gallery="view">
+					<img src="images/toni3.2.png" alt="">
+					<div class="overlay">
+					<div class="overlay-content">
+						<p> Size Effect Study on Micro-scale Structures printed using Two-Photon Polymerization Technique</p>
+					</div>
 				</div>
-				<a href="contact.html" class="button border medium margin-bottom-40">Send us your resume</a>
+				</a>
 			</div>
-		</div>
+
+
 
 	</div>
-</div>
-<!-- End position #1 -->
 
-<!-- Position #2 -->
-<div class="container">
-	<div class="row margin-top-0">
-
-		<!-- Title -->
-		<div class="col-md-4">
-			<h3 class="about-me-title"><strong>Research Lead</strong></h3>
-		</div>
-
-		<!-- Description -->
-		<div class="col-md-8">
-			<div class="row margin-top-20">
-				<div class="col-md-12">
-					<p class="about-me-intro">Looking for a strong candidate currently a masters or PhD student in Mechanical Engineering or AA. Must like tacos, fun, and late nights in the lab.
-					Serious inquiries only. Upon passing phone screen must be able to face off in taco making competition with defending champ, Joe Undergrad.</p>
-				</div>
-				<a href="contact.html" class="button border medium margin-bottom-40">Send us your resume</a>
-			</div>
-		</div>
-
-	</div>
-</div>
-
-<!-- End position #2 -->
+<div class="clearfix"></div>
 
 <!-- Footer
 ================================================== -->
@@ -182,7 +159,6 @@
 				<div class="copyrights">©  Copyright 2018 by <a href="index.html">MAMS</a></div>
 			</div>
 		</div>
-
 
 </div>
 <!-- Scripts
@@ -210,6 +186,17 @@
 <script type="text/javascript" src="scripts/puregrid.js"></script>
 <script type="text/javascript" src="scripts/flexibility.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
+
+<!-- View JS -->
+<script src="scripts/view.js"></script>
+<script>
+
+	new View( $('a[data-gallery]') );
+</script>
+
+
+
+
 
 </div>
 <!-- Wrapper / End -->
