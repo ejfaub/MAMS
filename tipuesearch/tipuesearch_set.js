@@ -5,7 +5,7 @@ Copyright (c) 2017 Tipue
 Tipue Search is released under the MIT License
 http://www.tipue.com/search
 */
-var tipuesearch_pages = ["https://ejfaub.github.io/MAMS/publications.html""];
+var tipuesearch_pages = ["https://ejfaub.github.io/MAMS/publications.html"];
 
 
 /*
@@ -78,4 +78,3 @@ var tipuesearch_string_15 = 'Searches related to';
 // Timer for showTime
 
 var startTimer = new Date().getTime();
-
