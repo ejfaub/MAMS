@@ -5,7 +5,7 @@
 <!-- Basic Page Needs
 ================================================== -->
 <meta charset="utf-8">
-<title>Contact Us</title>
+<title>Results</title>
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -20,19 +20,20 @@
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-97721465-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!-- For Searching Publications -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400"> -->
+<link rel="stylesheet" href="tipuesearch/css/normalize.css">
 
-  gtag('config', 'UA-97721465-2');
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="tipuesearch/css/tipuesearch.css">
+<script src="tipuesearch/tipuesearch_set.js"></script>
+<script src="tipuesearch/tipuesearch.min.js"></script>
 
 </head>
 
 <body>
+
 
 <!-- Wrapper -->
 <div id="wrapper">
@@ -40,7 +41,7 @@
 
 <!-- Header
 ================================================== -->
-<div id="header-container" data-background="images/teaching.png" data-color="#252628" data-color-opacity="0.0">
+<div id="header-container" data-background="images/header.png" data-color="#252628" data-color-opacity="0.0">
 
 
 	<div id="main-header">
@@ -67,7 +68,7 @@
 						<ul class="menu alt2" id="responsive">
 							<li class="dropdown">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="publications.html">Publications</a></li>
+							<li><a href="publications.html" class="current">Publications</a></li>
 							<li><a href="projects.html">Projects</a></li>
 							<li><a href="people.html">People</a></li>
 							<li><a href="teaching.html">Teaching</a></li>
@@ -82,7 +83,7 @@
 							-->
 							<!-- if current opening: -->
 							<li class="dropdown">
-								<a href="contact.html" class="current">Contact</a>
+								<a href="contact.html">Contact</a>
 								<ul>
 									<li><a href="openings.html">Openings</a></li>
 								</ul>
@@ -104,7 +105,7 @@
 		<div class="row">
 			<div class="col-md-12">
 
-				<h2>Contact</h2>
+				<h2>Publications Results</h2>
 
 			</div>
 		</div>
@@ -116,74 +117,49 @@
 
 
 
-
-
-<!-- Contact
+<!-- Content
 ================================================== -->
-<!-- Container / Start -->
+
+<!-- Container -->
 <div class="container">
-
 	<div class="row">
-
-		<!-- Contact Details -->
-		<div class="col-md-4">
-
-			<h3 class="headline margin-bottom-35">Work With Us</h3>
-
-			<!-- Contact Details -->
-			<div class="sidebar-textbox">
-				<p>Join a highly collaborative group of students to further your education and a chance to make massive finds. </p>
-				<ul class="contact-details">
-					<li><i class="ln ln-icon-Globe"></i> <strong>Web:</strong> <span><a href="www.ejfaubion.com">www.MAMS.com</a></span></li>
-					<li><i class="ln ln-icon-Envelope"></i> <strong>E-Mail:</strong> <span><a href="mailto:salviato@aa.washington.edu">Email Us!</a></span></li>
-				</ul>
+<!--
+		<div class="widget margin-bottom-15">
+			<div class="search">
+				<div class="input"><input class="search-field" type="text" placeholder="To search type and hit enter" value=""/></div>
 			</div>
-
+			<div class="clearfix"></div>
 		</div>
-
-		<!-- Contact Form -->
-		<div class="col-md-8">
-
-			<section id="contact">
-				<h3 class="headline margin-bottom-45">Tell Us Why You're Interested</h3>
-
-				<div id="contact-message"></div>
-
-					<form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="on">
-
-					<div class="row">
-						<div class="col-md-6">
-							<div>
-								<input name="name" type="text" id="name" placeholder="Your Name" required="required" />
-							</div>
-						</div>
-
-						<div class="col-md-6">
-							<div>
-								<input name="email" type="email" id="email" placeholder="Email Address" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" required="required" />
-							</div>
-						</div>
-					</div>
-
-					<div>
-						<input name="subject" type="text" id="subject" placeholder="Subject" required="required" />
-					</div>
-
-					<div>
-						<textarea name="comments" cols="40" rows="3" id="comments" placeholder="Message" spellcheck="true" required="required"></textarea>
-					</div>
-
-					<input type="submit" class="submit button medium border" id="submit" value="Send" />
-
-					</form>
-			</section>
-		</div>
-		<!-- Contact Form / End -->
-
 	</div>
+-->
+		<div class="col-md-8 col-md-offset-2">
 
+<!-- search -->
+			<!-- <form action="publicationsresults.html">
+				<div class="widget margin-bottom-35">
+					<div class="search">
+						<div class="input"><input type="text" name="q" id="tipue_search_input" placeholder = "Search publications"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				</form>
+				<div id="tipue_search_content"></div> -->
+				<form action="publications.html">
+					<div class="tipue_search_left"><img src="tipuesearch/search.png" class="tipue_search_icon"></div>
+					<div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+					<div style="clear: both;"></div>
+				</form>
+				<div id="tipue_search_content"></div>
+
+		</div>
+	</div>
 </div>
+
+
+
+
 <!-- Container / End -->
+
 
 
 <!-- Footer
@@ -212,6 +188,7 @@
 		</div>
 
 </div>
+
 <!-- Scripts
 ================================================== -->
 <script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
@@ -238,8 +215,60 @@
 <script type="text/javascript" src="scripts/flexibility.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
 
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+          'mode': 'live',
+          'liveDescription': '.header',
+          'liveContent': '.container'
+     });
+});
+</script>
 
-
+<!--
+<SCRIPT language=JavaScript>
+var NS4 = (document.layers);
+var IE4 = (document.all);
+var win = window;
+var n   = 0;
+function findInPage(str) {
+var txt, i, found;
+if (str == "")
+return false;
+if (NS4) {
+if (!win.find(str))
+  while(win.find(str, false, true))
+    n++;
+else
+  n++;
+if (n == 0)
+  alert("Not found.");
+}
+if (IE4) {
+txt = win.document.body.createTextRange();
+for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) {
+  txt.moveStart("character", 1);
+  txt.moveEnd("textedit");
+}
+if (found) {
+  txt.moveStart("character", -1);
+  txt.findText(str);
+  txt.select();
+  txt.scrollIntoView();
+  n++;
+}
+else {
+  if (n > 0) {
+    n = 0;
+    findInPage(str);
+  }
+  else
+    alert("Sorry, we couldn't find.Try again");
+}
+}
+return false;
+}
+</SCRIPT> -->
 
 
 </div>

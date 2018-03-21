@@ -5,7 +5,7 @@
 <!-- Basic Page Needs
 ================================================== -->
 <meta charset="utf-8">
-<title>Contact Us</title>
+<title>News</title>
 
 <!-- Mobile Specific Metas
 ================================================== -->
@@ -29,17 +29,17 @@
 
   gtag('config', 'UA-97721465-2');
 </script>
-
 </head>
 
 <body>
 
+
 <!-- Wrapper -->
 <div id="wrapper">
 
-
 <!-- Header
 ================================================== -->
+
 <div id="header-container" data-background="images/teaching.png" data-color="#252628" data-color-opacity="0.0">
 
 
@@ -66,7 +66,7 @@
 					<nav id="navigation">
 						<ul class="menu alt2" id="responsive">
 							<li class="dropdown">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html"class="current">Home</a></li>
 							<li><a href="publications.html">Publications</a></li>
 							<li><a href="projects.html">Projects</a></li>
 							<li><a href="people.html">People</a></li>
@@ -82,7 +82,7 @@
 							-->
 							<!-- if current opening: -->
 							<li class="dropdown">
-								<a href="contact.html" class="current">Contact</a>
+								<a href="contact.html">Contact</a>
 								<ul>
 									<li><a href="openings.html">Openings</a></li>
 								</ul>
@@ -104,7 +104,7 @@
 		<div class="row">
 			<div class="col-md-12">
 
-				<h2>Contact</h2>
+				<h3>News for MAMS</h3>
 
 			</div>
 		</div>
@@ -116,74 +116,52 @@
 
 
 
-
-
-<!-- Contact
+<!-- Content
 ================================================== -->
-<!-- Container / Start -->
-<div class="container">
 
+<!-- News -->
+<div class="container">
 	<div class="row">
 
-		<!-- Contact Details -->
-		<div class="col-md-4">
+		<div class="col-md-12">
+			<h2 class="headline margin-top-70 margin-bottom-35 centered">In Other News</h2>
+		</div>
 
-			<h3 class="headline margin-bottom-35">Work With Us</h3>
+		<div class="col-md-12">
+			<div class="icon-boxes-4">
 
-			<!-- Contact Details -->
-			<div class="sidebar-textbox">
-				<p>Join a highly collaborative group of students to further your education and a chance to make massive finds. </p>
-				<ul class="contact-details">
-					<li><i class="ln ln-icon-Globe"></i> <strong>Web:</strong> <span><a href="www.ejfaubion.com">www.MAMS.com</a></span></li>
-					<li><i class="ln ln-icon-Envelope"></i> <strong>E-Mail:</strong> <span><a href="mailto:salviato@aa.washington.edu">Email Us!</a></span></li>
-				</ul>
+				<!-- Icon Box -->
+				<a href="http://expd.uw.edu/mge/apply/research/" class="icon-box-4">						<!-- 'href' is the link, so change what is in the quotes to the destination of choice -->
+					<div class="icon-box-4-content">
+						<div class="icon-box-4-alignment">
+							<i class="ln ln-icon-Medal"></i>		<!-- change the icon to better repersent the news from https://iconsmind.com/view_icons/ -->
+							<h3>Mary Gates Fellowship</h3>       <!-- the title of the news -->
+							<p><b>John Buffalo</b> was just awarded with the prestigious research scholarship. <!-- the title of the news -->
+								He is preceded by <b>Minh Nguyen</b>.  This makes our lab 2/2!</p>
+						</div>
+					</div>
+				</a>
+
+<!-- New news updates - add new 'boxes' by copy and pasting the one from above and changing the information-->
+
+				<!-- Icon Box -->
+				<a href="people.html" class="icon-box-4">						<!-- 'href' is the link, so change what is in the quotes to the destination of choice -->
+					<div class="icon-box-4-content">
+						<div class="icon-box-4-alignment">
+							<i class="ln ln-icon-Add-User"></i>		<!-- change the icon to better repersent the news from https://iconsmind.com/view_icons/ -->
+							<h3>Meet our new members</h3>       <!-- the title of the news -->
+							<p>Some new faces have joined our lab, we are pleased to introduce <b>Joe Undergrad</b> and <b>Fred Masters</b></p>
+						</div>
+					</div>
+				</a>
+
+
 			</div>
-
 		</div>
-
-		<!-- Contact Form -->
-		<div class="col-md-8">
-
-			<section id="contact">
-				<h3 class="headline margin-bottom-45">Tell Us Why You're Interested</h3>
-
-				<div id="contact-message"></div>
-
-					<form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="on">
-
-					<div class="row">
-						<div class="col-md-6">
-							<div>
-								<input name="name" type="text" id="name" placeholder="Your Name" required="required" />
-							</div>
-						</div>
-
-						<div class="col-md-6">
-							<div>
-								<input name="email" type="email" id="email" placeholder="Email Address" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" required="required" />
-							</div>
-						</div>
-					</div>
-
-					<div>
-						<input name="subject" type="text" id="subject" placeholder="Subject" required="required" />
-					</div>
-
-					<div>
-						<textarea name="comments" cols="40" rows="3" id="comments" placeholder="Message" spellcheck="true" required="required"></textarea>
-					</div>
-
-					<input type="submit" class="submit button medium border" id="submit" value="Send" />
-
-					</form>
-			</section>
-		</div>
-		<!-- Contact Form / End -->
 
 	</div>
-
 </div>
-<!-- Container / End -->
+<!-- News End -->
 
 
 <!-- Footer
@@ -212,6 +190,10 @@
 		</div>
 
 </div>
+
+
+
+
 <!-- Scripts
 ================================================== -->
 <script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
@@ -237,7 +219,6 @@
 <script type="text/javascript" src="scripts/puregrid.js"></script>
 <script type="text/javascript" src="scripts/flexibility.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
-
 
 
 
