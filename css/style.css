@@ -2945,7 +2945,12 @@ body #backtotop a { color: #fff; }
 	margin-top: 3px;
 	display: inline-block;
 }
-
+.icon-box-2 h5 {
+	font-size: 22px;
+	font-weight: 600;
+	color: white;
+	line-height: 4;
+}
 
 /* Icon Box #3
 ------------------------------------- */
