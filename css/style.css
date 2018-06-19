@@ -3658,14 +3658,14 @@ body .testimonial-author span {
 #header-container {
 	padding: 0;
 	position: relative;
-	background-size: 100%;
-	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	overflow: hidden;
+	width: 100;
+	height: auto;
+	background-size: auto;
+	
+
+
 
 }
 
